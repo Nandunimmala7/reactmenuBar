@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Menuitems} from "./Menuitems"
 import'./Navbar.css'
+import {Button} from '../Button'
 class Navbar extends Component {
     state = { clicked:false}
     handleClick = () => {
@@ -29,7 +30,7 @@ class Navbar extends Component {
                         
                     </ul>
                 
-
+                    <Button>signup</Button>
             </nav>
         )
     }
